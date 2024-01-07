@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #F6E1E2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #3E0E1F;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+#search-input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+#signin-signup {
+    display: flex;
+    align-items: center;
+}
+
+#signin-signup a {
+    margin-left: 10px;
+}
